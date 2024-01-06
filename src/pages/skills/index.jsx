@@ -1,6 +1,5 @@
 import PageTransitionEffect from "@/components/PageTransitionEffect";
 import React from "react";
-import { motion } from "framer-motion";
 import {
   bitbucket,
   html,
@@ -22,7 +21,6 @@ import {
   teamWork,
 } from "../../../public/skills";
 import Image from "next/image";
-import "./module.skills.css";
 
 const technical_skills = [
   { type: "HTML", perc: "group-hover:w-[10%] w-0", icon: html },

@@ -4,7 +4,6 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import heroImage from "../../public/images/programmer.png";
 import PageTransitionEffect from "@/components/PageTransitionEffect";
-import "./module.home.css";
 
 const AnimatedText = () => {
   const titles = [

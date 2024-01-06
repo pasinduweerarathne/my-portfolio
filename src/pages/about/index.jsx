@@ -4,8 +4,6 @@ import profile from "../../../public/images/profile.png";
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
-import "./module.about.css";
-import { motion } from "framer-motion";
 
 const About = () => {
   return (
