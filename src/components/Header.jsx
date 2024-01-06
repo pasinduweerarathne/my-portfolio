@@ -67,7 +67,7 @@ const Header = () => {
   useEffect(() => {
     const x = menus.findIndex((menu) => menu.path === asPath);
     setActive(x);
-  }, [asPath, menus]);
+  }, [asPath]);
 
   const animateNav = {
     initial: {
