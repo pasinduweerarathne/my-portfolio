@@ -25,13 +25,13 @@ const About = () => {
               alt="profile"
             />
           </div>
-          <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-center opacity-0 group-hover:opacity-[1] duration-500">
-            <div className="-translate-y-48 group-hover:translate-y-1 duration-500">
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-center opacity-0 group-hover:opacity-[1] duration-500">
+            <p className="-translate-y-48 group-hover:translate-y-1 duration-500">
               <span className="text-4xl flex flex-col text-white font-josefin font-extrabold min-w-[206px]">
                 Hello I'm <span className="text-xl">Pasindu Weerarathne</span>
               </span>
-            </div>
-          </p>
+            </p>
+          </div>
         </div>
 
         <p className="px-4 font-mono text-white text-lg text-center">
