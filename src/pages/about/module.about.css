@@ -1,0 +1,27 @@
+.box::before {
+  content: "";
+  position: absolute;
+  inset: 0 100px;
+  background: linear-gradient(380deg, #00ccff, #ffb000);
+  transition: 0.5s;
+  animation: animate 4s linear infinite;
+}
+.box:hover::before {
+  inset: 0px 0px;
+}
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.box::after {
+  content: "";
+  position: absolute;
+  inset: 6px;
+  background: #4801ff;
+  border-radius: 50%;
+  z-index: 1;
+}

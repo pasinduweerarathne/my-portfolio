@@ -1,0 +1,13 @@
+.letter {
+  transform-origin: center center 5px;
+}
+.letter.out {
+  transform: rotateX(90deg);
+  transition: 0.32s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.letter.in {
+  transition: 0.38s ease;
+}
+.letter.behind {
+  transform: rotateX(-90deg);
+}
