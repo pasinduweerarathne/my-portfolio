@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import PageTransitionEffect from "@/components/PageTransitionEffect";
 import profile from "../../../public/images/profile.png";
 import Head from "next/head";
