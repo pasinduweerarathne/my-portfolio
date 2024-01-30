@@ -1,13 +1,7 @@
 import PageTransitionEffect from "@/components/PageTransitionEffect";
 import React from "react";
-import { github } from "../../../public/skills";
 import Image from "next/image";
-import {
-  project1,
-  project2,
-  project3,
-  project4,
-} from "../../../public/projects";
+import { project1, project2 } from "../../../public/projects";
 import Link from "next/link";
 
 const projects = [
@@ -20,16 +14,6 @@ const projects = [
     image: project2,
     name: "Extate Explorer",
     link: "https://real-estate-mern-app.netlify.app/",
-  },
-  {
-    image: project3,
-    name: "project 3",
-    link: "http://project3.com",
-  },
-  {
-    image: project4,
-    name: "project 4",
-    link: "http://project4.com",
   },
 ];
 
