@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
   return (
     <Layout>
       <Head>
-        <title>PW</title>
+        <title>Pasindu - Portfolio</title>
       </Head>
 
       <AnimatePresence mode="wait">

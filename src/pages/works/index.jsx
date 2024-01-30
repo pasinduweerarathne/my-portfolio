@@ -18,8 +18,8 @@ const projects = [
   },
   {
     image: project2,
-    name: "project 2",
-    link: "http://project2.com",
+    name: "Extate Explorer",
+    link: "https://real-estate-mern-app.netlify.app/",
   },
   {
     image: project3,

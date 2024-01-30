@@ -16,6 +16,7 @@ import restApi from "./restApi.png";
 import conversation from "./conversation.png";
 import problemSolving from "./problemSolving.png";
 import teamWork from "./teamWork.png";
+import nextjs from "./nextjs.svg";
 
 export {
   bitbucket,
@@ -32,6 +33,7 @@ export {
   php,
   postgresql,
   reactjs,
+  nextjs,
   restApi,
   conversation,
   problemSolving,

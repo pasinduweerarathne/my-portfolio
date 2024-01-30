@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import heroImage from "../../public/images/programmer.png";
+import heroImage from "../../public/images/programmer.webp";
 import PageTransitionEffect from "@/components/PageTransitionEffect";
 
 const AnimatedText = () => {
